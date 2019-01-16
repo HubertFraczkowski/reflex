@@ -1,0 +1,24 @@
+body {
+    font-family:sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gra-tablica {
+    margin:30px auto;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    width: 650px;
+    height: 650px;
+    border: 2px solid #ddd;
+}
+
+.gra-kafle {
+    position: absolute;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background: #f6da17;
+}
